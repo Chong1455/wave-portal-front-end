@@ -1,0 +1,70 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  color: #C7B8F4;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blueContainer {
+  background: #4F46E5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+  padding: 1rem 3rem;
+  max-width: 800px;
+  margin: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  margin: 16px 0;
+  padding: 0 50px;
+}
+
+.waveButton {
+  cursor: pointer;
+  padding: 12px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #818CF8;
+  color: white;
+  height: 50px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.input {
+  line-height: 43px;
+  border-radius: 5px;
+  width: 220px;
+  margin: 20px;
+  padding-left: 10px;
+  border: 2px solid black;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+  margin-top: 40px;
+}
